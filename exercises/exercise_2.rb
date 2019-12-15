@@ -9,10 +9,10 @@ puts "----------"
 # Update the first store (@store1) instance in the database. (Change its name or something.)
 # Your code goes here ...
 
-@store = Store.find_by(id: 1);
+@store1 = Store.find_by(id: 1);
 # puts @store.name
 @store2 = Store.find_by(id: 2);
 # puts @store2.name
-@store.update(name: "Wonderland")
+@store1.update(name: "Wonderland")
 
-puts @store.name
+puts @store1.name
